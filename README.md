@@ -28,6 +28,10 @@
     
     *all command listed above will work
     
+# Youtube Link
+
+Link ----->   https://www.youtube.com/watch?v=GHnuWW0SgOE&feature=youtu.be
+    
 # Google except on home page (sorry i am still working on it but after any searcg this will work)
     
     * same like youtube and all other commands (except)
