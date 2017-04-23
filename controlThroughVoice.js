@@ -1,4 +1,4 @@
-	var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
+var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
 	var SpeechGrammarList = SpeechGrammarList || webkitSpeechGrammarList;
 	var SpeechRecognitionEvent = SpeechRecognitionEvent || webkitSpeechRecognitionEvent;
 	var scrolling = false;
@@ -28,7 +28,7 @@
 
 				  recognition.onresult = function(event) {
 				   
-				    speechResult = event.results[0][0].transcript;
+				    var speechResult = event.results[0][0].transcript;
 				    var str = speechResult;
 				    var check = str.search("search");
 				    var check2 = str.search("open");
@@ -187,7 +187,7 @@
 
 				  recognition.onresult = function(event)
 				    {  
-				    	speechResult = event.results[0][0].transcript;
+				    	var speechResult = event.results[0][0].transcript;
 				    	var str = speechResult;
 				    	console.log(speechResult);
 				    	var directionValue = $('#sb_ifc51 >:input');
@@ -226,7 +226,7 @@
 
 				  recognition.onresult = function(event)
 				    {  
-				    	speechResult = event.results[0][0].transcript;
+				    	var speechResult = event.results[0][0].transcript;
 				    	var str = speechResult;
 				    	console.log(speechResult);
 				    	if(speechResult == "search")
@@ -396,7 +396,7 @@
 	// Google Search
 
 	function googleSearch(){
-		$(".lsb").click();
+		$("#_fZl").click();
 		testSpeech();
 	}
 
