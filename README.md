@@ -6,7 +6,7 @@
 
     * To Scroll down --- say "roll down"
     * To Scroll up --- say "roll up"
-    * To Stop --- say "cool"  ----->>>  I like this word ^^
+    * To Stop --- say "cool" 
 
 # Other basic commands 
 
